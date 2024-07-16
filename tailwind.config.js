@@ -9,6 +9,10 @@ export default {
       backgroundImage: {
         'custom-pattern': "url('./Assets/cssPattern.png')", 
       },
+      colors: {
+        'react-blue': '#61DAFB',
+        'js-yellow': '#F7DF1E',
+      },
     },
   },
   plugins: [],

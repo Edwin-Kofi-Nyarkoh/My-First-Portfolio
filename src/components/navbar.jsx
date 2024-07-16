@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="sticky top-0 z-10 ">
-        <div className="flex justify-between items-center w-full shadow-md bg-gray-400 h-20 px-4 text-white">
+        <div className="flex justify-between items-center w-full shadow-md bg-gray-400 h-20 px-7 text-white">
           <div>
             <p className="text-4xl sm:text-5xl">
               <i>Edwin</i>
@@ -31,7 +31,7 @@ function Navbar() {
         </div>
         {isOpen && (
           <div className="sm:hidden">
-            <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full h-screen bg-gradient-to-b from-gray-500 to bg-black text-2xl">
+            <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full text-white h-screen bg-gradient-to-b from-gray-500 to bg-black text-2xl">
               <li onClick={() => SetIsOpen(!isOpen)} className="mb-2">
                 <NavLink exact to="/">
                   Home

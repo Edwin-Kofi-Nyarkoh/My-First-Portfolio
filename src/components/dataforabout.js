@@ -1,26 +1,17 @@
-import web from "..//Assets/web.jpg"
-import ux from "..//Assets/ux.jpg"
-import app from "..//Assets/app.png"
+import TailwindLogo from "../Assets/TailwindLogo.png";
+import { FaReact, FaJs } from "react-icons/fa";
 
-const Data1=[
-    {
-        theImg: web,
-        theSkill: "WEB",
-        description:" Hello I'm Mr. Kofi Edwin fajhfjhashfjhas askjdhfjhasdhfa ha sdhfhakushdf jdfhashfha jhfjahjsdh",
-        butt:"Hire Me"
-    },
-    {
-        theImg: ux,
-        theSkill: "UX/UI",
-        description:" Hello I'm Mr. Kofi Edwin fajhfjhashfjhas askjdhfjhasdhfa ha sdhfhakushdf jdfhashfha jhfjahjsdh",
-        butt:"Hire Me"
-    },
-    {
-        theImg: app,
-        theSkill: "APP",
-        description:" Hello I'm Mr. Kofi Edwin fajhfjhashfjhas askjdhfjhasdhfa ha sdhfhakushdf jdfhashfha jhfjahjsdh",
-        butt:"Hire Me"
-    }
-]
+const Data2 = [
+  {
+    heading: "About Me",
+    textBelow: `Hello, I'm Edwin Kofi Nyarkoh as Web Developer, Mobile App and UX/UI Designer 
+        I'm passionate about my job thus, creating visually appealing user-centric designs for 
+        Website and Mobile App and also developing them. I have almost three years experience in programing.
+        I use tecnologies like Javascript, Tailwindcss, React and now learning Node.js and Express.js for backend  `,
+    theITailwindSVG: TailwindLogo,
+    theReactIcon: <FaReact />,
+    theJsIcon: <FaJs />,
+  },
+];
 
-export default Data1;
+export default Data2;
