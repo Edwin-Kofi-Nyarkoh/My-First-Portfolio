@@ -4,7 +4,7 @@ import home from "../Assets/home.jpg"
 
 function Home(props){
 return(
-    <div className="w-full h-screen flex flex-col sm:flex-row items-center justify-between p-4">
+    <div className="w-full flex flex-col sm:flex-row items-center justify-between p-4">
     {props.Data.map((Data, index) => {
     return(
         <div key={index} className="w-full flex flex-col items-start justify-start text-white sm:w-1/2 p-4">

@@ -18,9 +18,9 @@ function Footer() {
         <div>
             <nav>
                 <ul className="flex gap-4 text-2xl text-blue-300">
-                    <a href="#dnnd"><FaGithub /></a>
+                    <a href="https://github.com/Edwin-Kofi-Nyarkoh " target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                     <a href="#dndn"><FaTiktok /></a>
-                    <a href="#fhfh"><FaLinkedin /></a>
+                    <a href="https://linkedin.com/Edwin Nyarkoh"><FaLinkedin /></a>
                 </ul>
             </nav>
         </div>
@@ -30,7 +30,7 @@ function Footer() {
         <p>Disclaimer: The roles listed on this website are based on real positions and all the images and photographs 
             dipicts the actual individual (Edwin) holding these positions. <br />I have taken measures to protect the privacy of
             and identity of me on this website.<FaSmile className="text-slate-300 mb-4"/> 
-            <p className="flex items-center gap-3"><FaEnvelope className="text-slate-300 text-2xl"/> <a href={"mailto:Eddiek7144@gmail.com"}>Eddiek7144@gmail.com</a> </p>
+            <p className="flex items-center gap-3"><FaEnvelope className="text-slate-300 text-2xl"/> <a href={"mailto:edwin.kofi.nyarkoh.com"}>edwin.kofi.nyarkoh@gmail.com</a> </p>
             
         </p>
       </div>

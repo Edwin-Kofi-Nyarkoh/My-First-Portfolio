@@ -22,7 +22,7 @@ function Contact() {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="">
         <div className="flex justify-center items-center text-4xl mt-6 text-white static top-20">
           <p className=" pb-2 border-b-cyan-400 border-b-2 ">Contact Me</p>
         </div>
@@ -43,7 +43,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="bg-white sm:mx-10 p-3 mx-5 sm:my-7 rounded-md shadow-md">
+          <div className="bg-white sm:mx-10 p-3 mx-5 sm:my-7 mb-4 rounded-md shadow-md">
             <form onSubmit={handleSubmit}>
               <label htmlFor="body" className="text-cyan-500 text-2xl pb-7">
                 Subject

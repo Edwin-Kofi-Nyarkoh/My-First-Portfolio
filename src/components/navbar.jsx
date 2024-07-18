@@ -31,7 +31,8 @@ function Navbar() {
         </div>
         {isOpen && (
           <div className="sm:hidden">
-            <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full text-white h-screen bg-gradient-to-b from-gray-500 to bg-black text-2xl">
+            <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full
+             text-white h-[706px] bg-gradient-to-b from-gray-500 to bg-black text-2xl">
               <li onClick={() => SetIsOpen(!isOpen)} className="mb-2">
                 <NavLink exact to="/">
                   Home

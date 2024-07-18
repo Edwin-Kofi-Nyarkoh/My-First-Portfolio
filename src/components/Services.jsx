@@ -1,6 +1,17 @@
 import React from "react";
 
+
+
+
+
 function Services(props) {
+  const theReloadFunction=(event)=>{
+    event.preventDefault();
+  
+    setTimeout(() => {
+      window.location.reload();
+    }, 9000);
+  };
   return (
     <>
         <div className="flex justify-center items-center text-4xl mt-6 text-white static top-20">
@@ -10,8 +21,11 @@ function Services(props) {
           <div key={index} className="bg-white shadow-2xl m-6 p-6 rounded-md">
             <p><img src={Data1.theImg} alt="" className="h-[150px] rounded-md mb-3 w-1/2"/></p>
             <p className="font-bold text-cyan-400">{Data1.theSkill}</p>
-            <p>{Data1.description}</p>
-            <button className="bg-cyan-400 p-2 rounded-lg mt-2">{Data1.butt}</button>
+            <p className="mb-4">{Data1.description}</p>
+            <form onSubmit={theReloadFunction}>
+            <button type="submit"><a  href={"mailto:edwin.kofi.nyarkoh@gmail.com"} 
+            className="bg-cyan-400 p-2 rounded-lg  hover:bg-cyan-600">{Data1.butt}</a> </button>
+            </form>
           </div>
         ))}
       </div>
