@@ -1,5 +1,6 @@
 import React from "react";
-import AboutImg from "../Assets/AboutImg.jpg";
+// import AboutImg from "../Assets/AboutImg.jpg";
+import theAboutImg from "../Assets/theAboutImg.jpg";
 
 function About(props) {
   return (
@@ -9,8 +10,8 @@ function About(props) {
       </div>
 
       <div className="flex sm:justify-center flex-col sm:flex-row sm:px-6 w-full">
-        <div className=" sm:w-2/5 bg-re-300">
-          <img src={AboutImg} alt="" className="rounded-3xl p-10" />
+        <div className=" sm:w-2/5 ">
+          <img src={theAboutImg} alt="My About " className="p-10" />
         </div>
 
         <div className="sm:w-3/5 bg-slat-500 sm:ml-4 mt-9 sm:mt-0 flex flex-col ">

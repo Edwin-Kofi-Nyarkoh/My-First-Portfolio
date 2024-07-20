@@ -17,10 +17,10 @@ function Footer() {
         </div>
         <div>
             <nav>
-                <ul className="flex gap-4 text-2xl text-blue-300">
-                    <a href="https://github.com/Edwin-Kofi-Nyarkoh " target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                    <a href="#dndn"><FaTiktok /></a>
-                    <a href="https://linkedin.com/Edwin Nyarkoh"><FaLinkedin /></a>
+                <ul className="flex gap-4 text-2xl text-white">
+                    <a href="https://github.com/Edwin-Kofi-Nyarkoh" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                    <a href="https://www.tiktok.com/@edwin.kofi.nyarkoh?_t=8oAb3FJAKxi&_r=1" target="_blank" rel="moopener noreferrer"><FaTiktok /></a>
+                    <a href="https://linkedin.com/Edwin Nyarkoh" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                 </ul>
             </nav>
         </div>

@@ -19,7 +19,7 @@ function Services(props) {
       <div className="grid sm:grid-cols-3 sm:m-4 p-4 ">
         {props.data1.map((Data1, index) => (
           <div key={index} className="bg-white shadow-2xl m-6 p-6 rounded-md">
-            <p><img src={Data1.theImg} alt="" className="h-[150px] rounded-md mb-3 w-1/2"/></p>
+            <p><img src={Data1.theImg} alt="some imageHere" className="h-[150px] rounded-md mb-3 w-1/2"/></p>
             <p className="font-bold text-cyan-400">{Data1.theSkill}</p>
             <p className="mb-4">{Data1.description}</p>
             <form onSubmit={theReloadFunction}>

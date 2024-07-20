@@ -1,5 +1,6 @@
 import React from "react";
-import home from "../Assets/home.jpg"
+// import home from "../Assets/home.jpg";
+import mainImg from "../Assets/mainImg.jpg"
 
 
 function Home(props){
@@ -14,7 +15,7 @@ return(
     )}
     )}
     <div className="w-full flex items-center justify-center sm:w-1/2 ">
-      <img src={home} alt="My Picture(Edwin)" className="w-4/5 rounded-3xl" />
+      <img src={mainImg} alt="My Picture(Edwin)" className="w-4/5 sm:rounded-[50px] rounded-2xl sm:p-[40px]" />
     </div>
   </div>
 )
