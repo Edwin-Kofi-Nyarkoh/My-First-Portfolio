@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaTiktok, FaSmile, FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 
 function Footer() {
@@ -18,9 +19,26 @@ function Footer() {
         <div>
             <nav>
                 <ul className="flex gap-4 text-2xl text-white">
-                    <a href="https://github.com/Edwin-Kofi-Nyarkoh" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                    <a href="https://www.tiktok.com/@edwin.kofi.nyarkoh?_t=8oAb3FJAKxi&_r=1" target="_blank" rel="moopener noreferrer"><FaTiktok /></a>
-                    <a href="https://linkedin.com/Edwin Nyarkoh" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                    <motion.a
+                     initial={{y:0}}
+                     animate={{y:[-5, 5]}}
+                     transition={{duration: 2, ease:"linear", repeat:Infinity, repeatType:"reverse"}}
+                    
+                    href="https://github.com/Edwin-Kofi-Nyarkoh" target="_blank" rel="noopener noreferrer"><FaGithub /></motion.a>
+
+                    <motion.a 
+                     initial={{y:0}}
+                     animate={{y:[-5, 5]}}
+                     transition={{duration: 2, ease:"linear", delay: 1.5, repeat:Infinity, repeatType:"reverse"}}
+                    
+                    href="https://www.tiktok.com/@edwin.kofi.nyarkoh?_t=8oAb3FJAKxi&_r=1" target="_blank" rel="moopener noreferrer"><FaTiktok /></motion.a>
+
+                    <motion.a 
+                     initial={{y:0}}
+                     animate={{y:[-5, 5]}}
+                     transition={{duration: 2, ease:"linear", delay: 2, repeat:Infinity, repeatType:"reverse"}}
+                    
+                    href="https://linkedin.com/Edwin Nyarkoh" target="_blank" rel="noopener noreferrer"><FaLinkedin /></motion.a>
                 </ul>
             </nav>
         </div>
